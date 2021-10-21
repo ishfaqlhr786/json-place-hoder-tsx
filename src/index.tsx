@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom'
+import Users from './Users'
+import UserOne from './UserOne'
+import SearchUser from './SearchUser'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <SearchUser />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.posts {
+  list-style: none;
+  margin: 0px auto;
+  width: 800px;
+  text-align: left;
+  background-color: green;
+  color: yellow;
+}
+.error {
+  color: red;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
